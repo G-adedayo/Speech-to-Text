@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5e5b52;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #e6d2c5; /* Light rock color to match the theme */
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    font-size: 1.1rem;
+    background-color: #e6d2c5; /* Light rock color */
+    color: #333;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#startBtn {
+    background-color: #4a7c59; /* Dark green rock shade */
+}
+
+#startBtn:hover {
+    background-color: #3a5d46;
+}
+
+#stopBtn {
+    background-color: #c9463d; /* Dark red rock shade */
+}
+
+#stopBtn:hover {
+    background-color: #a8362e;
+}
